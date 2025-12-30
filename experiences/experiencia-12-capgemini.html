@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>ExperienciaLaboral12_Capgemini | Aura Cristina Garzón</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="container">
+    <a class="back-link" href="../index.html">← Volver al perfil</a>
+    <h1>ExperienciaLaboral12_Capgemini</h1>
+    <table class="experience-detail-table">
+      <tbody>
+        <tr><th>Empresa</th><td>Capgemini</td></tr>
+<tr><th>Cargo</th><td>Senior Full Stack Java Angular Developer</td></tr>
+<tr><th>Duración</th><td>(SEP/2022 – JAN/2023)</td></tr>
+<tr><th>Proyecto</th><td>CARDIF Seguros (CORE CLAIMS System)</td></tr>
+      </tbody>
+    </table>
+    <div class="experience-flair-row">
+      <span class="experience-chip">💼 Capgemini</span>
+      <span class="experience-chip">👩‍💻 Senior Full Stack Java Angular Developer</span>
+      <span class="experience-chip">⏱️ (SEP/2022 – JAN/2023)</span>
+      <span class="experience-chip">🧭 CARDIF Seguros (CORE CLAIMS System)</span>
+    </div>
+    <div class="experience-highlight-card">
+      <h2>Aspectos destacados</h2>
+      <ul class="emoji-bullets">
+        <li>🧪 Implementé servicios Spring Boot para Claims Core con Feign, Swagger y pruebas JUnit integradas.</li>
+        <li>🔍 Ajusté consultas, paginación y filtros por fechas, socios y coberturas validando en Postman y crs-backend.</li>
+        <li>⚙️ Fortalecí validaciones y manejo de excepciones (documenttypes, personDocument) para mejorar la resiliencia.</li>
+      </ul>
+    </div>
+    <div class="experience-detail-content">
+      <p>Sitio web: www.capgemini.com Spring Boot: Construcción de servicios para el sistema Claims Core Angular: Dibujar la capa Frontal usando la herramienta Angular. Desarrollador SQL: manejo de diferentes elementos de base de datos cuyos elementos estaban en esta herramienta. Swagger: Espacio donde se ubicaban los servicios a desarrollar en Spring boot, también se podrían realizar realizar pruebas REST. La elaboración de las siguientes tareas de las Historias de Usuarios para el sistema Core de Claims: Historia de Usuario/Requerimiento (1): HU 004 Claims Consultation: - Adaptación en varias partes, para una compilación exitosa. - Uso de Feign como parte de los estándares estipulados para el desarrollo de los diferentes servicios. - Pruebas Junit exitosas. Para esto 1) se realizó la prueba con respecto a la clase principal para que la inicialización de Spring Boot funcione correctamente, 2) se agrega Junit como dependencia de pom.xml. - Realizamos 1) la implementación en Junit del método que implementa la capacidad del servicio que sí llama a otro servicio crs-backend, 2) ajustes en ClaimConsultationController, 3) agregamos la configuración Swagger, 4) agregamos la clase URLMapping para Proyecto ClaimCoreConsult. Swagger se verificará en el navegador, probará el método con el tipo y número de documento, y el resultado es exitoso y 5) Se agregaron application.properties. - Se creó el cliente para el consumo del servicio de consulta CRS, realizando pruebas unitarias. - exitoso, el filtro que corresponde al tipo y número de identificación del beneficiario queda pendiente hasta que estos campos sean implementados en el modelo físico de la base de datos, según acuerdo de la junta de perfeccionamiento. - Se validó que en el caso de que personDocumentType, personDocumentNumber y empleadoDocumentNumber en el caso de que ninguno de los tres sea nulo, devuelva resultados en lugar de decir que la solicitud es incorrecta. - Correcciones de mensajes de validación. - Mejoras en la implementación. - Se implementó un servicio y serviceImp con el fin de manejar las condiciones para generar las respectivas excepciones a nivel de ClaimsCore y se implementaron nuevos tipos de excepciones. - Se corrigió la consulta por filtros según observaciones de QA. - Se solucionó el caso en que personDocumentType y personDocumentNumber no son nulos, si no había datos se decía que no había datos, en lugar de generar una solicitud errónea a nivel de crs-backend, y se hacían los cambios respectivos en el ClaimsCore. nivel. - Se realizaron diversos ajustes en las respectivas pruebas unitarias. - Se realizaron ajustes sobre ICrsClient. - Se hizo un arreglo en la Consulta en cuanto a Paginación, dado que el primer acercamiento realizado en lo que respecta a esta Paginación no funcionó correctamente. Se realizaron pruebas con página=1, 2, 3 y tamaño entre 20 y 25, comprobando el resto en la última página, exitosamente. - Se incorporó paginación en getClaims de Claims Query, se probó en Postman, desde ClaimsCore pasando por crs-backend exitosamente. - Se realizaron las siguientes correcciones: 1) Consulta entre CreationDateFrom y CreationDateUntil. El segundo requirió el primer parámetro en el caso de fechas, y se pueden incluir otros parámetros. 2) Se permite la consulta por socio y nombre de cobertura y 3) Devuelve el número de documentos cargados. Se realizaron pruebas en Postman to ClaimsCore, pasando por crs-backend exitosamente. Historia de Usuario/Requerimiento (2): User Story 77014: - Se ajustó la consulta de reclamos generales del cliente de acuerdo a los requerimientos del desarrollo finalizado del front (paginación) a nivel crs-backend. Se probó con éxito en Postman desde crs-backend y ClaimCore. Historia de Usuario/Requerimiento (3): History A1_HU007 Query Documents: - Ajustado para permitir la llamada a getDocumentByArrender dirigida a crs-backend. - Se completó la tarea de creación de EndPoint para recuperar documentos en ClaimsCore. Fue probado exitosamente por Postman desde ClaimsCore, pasando por el servicio web crs-backend. Se creó un Servicio, la vista de salida, la solicitud de entrada, se agregó la constante en URLMapping y se tomó en cuenta la Paginación. Historia de Usuario/Requerimiento (4): User Story 009: - Se cargó una prueba de prueba de concepto con Mockito, para verificar si el desarrollador estaba aplicando el concepto de manera correcta. - Se realizó la implementación de 14 pruebas, cumpliendo con la tarea back en lo que correspondía a Crear/Modificar todos los siniestros-core-consultar pruebas unitarias y construir pruebas unitarias a partir de Consulta de Siniestros. Cada prueba correspondió a cada condición especificada en el documento Test Matrix Proof. La prueba se ejecutó en los 14 casos con reportes de éxito. Una captura de pantalla del informe JUnit. <a</p>
+    </div>
+  </div>
+</body>
+</html>
