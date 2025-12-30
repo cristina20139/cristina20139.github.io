@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>ExperienciaLaboral10_AriaPSW | Aura Cristina Garzón</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="container">
+    <a class="back-link" href="../index.html">← Volver al perfil</a>
+    <h1>ExperienciaLaboral10_AriaPSW</h1>
+    <table class="experience-detail-table">
+      <tbody>
+        <tr><th>Empresa</th><td>Aria PSW</td></tr>
+<tr><th>Cargo</th><td>Desarrollador Senior / Desarrollador TIBCO</td></tr>
+<tr><th>Duración</th><td>(MAR/2021 – SEP/2021)</td></tr>
+<tr><th>Proyecto</th><td>Colpensiones</td></tr>
+      </tbody>
+    </table>
+    <div class="experience-flair-row">
+      <span class="experience-chip">💼 Aria PSW</span>
+      <span class="experience-chip">👩‍💻 Desarrollador Senior / Desarrollador TIBCO</span>
+      <span class="experience-chip">⏱️ (MAR/2021 – SEP/2021)</span>
+      <span class="experience-chip">🧭 Colpensiones</span>
+    </div>
+    <div class="experience-highlight-card">
+      <h2>Aspectos destacados</h2>
+      <ul class="emoji-bullets">
+        <li>🧩 Desarrollé el servicio Servicio472 para Colpensiones, gestionando recepciones XML, validaciones, georreferenciación y generación de PDFs.</li>
+        <li>🔧 Implementé controles de cambio para WS_GestorIdentidades, noticias y aprobaciones ajustando XSLT/XSD y reglas de homologación.</li>
+        <li>🚦 Construí componentes FRONT y BACK para BEPS Electronic Linking y servicios digitales con flujos REST y SOAP consolidados.</li>
+      </ul>
+    </div>
+    <div class="experience-detail-content">
+      <p>Sitio web: https://ariapsw.com/en/web/guest/home (TIBCO Factory) TIBCO 6.7, TIBCO 6.4, Oracle Service Manager, MobaxTerm, interfaz de usuario SOAP Entre las funcionalidades que estuvieron a cargo del proyecto Colpensiones se encuentran: Desarrollo desde el inicio de un servicio denominado Servicio472, Se ejecutó desde la fase de Análisis, Diseño y Desarrollo Descripción del Servicio: · Colpensiones con su plataforma bizagi genera documentos XML que son enviados al servicio web desarrollado por Carvajal. · Carvajal Recibe el documento XML, se realiza una validación de integridad de datos para enviar una respuesta positiva o negativa a bizagi con su respectivo formato mientras el registro XML se pone en cola en una BD donde un proceso automático se encarga de generar el documento PDF para realizar una ejecución. a las 22:00 horas. · Para esto se asignan 2 servidores, el principal y el de contingencia. Luego de la ejecución lo que se realiza es el proceso de georreferenciación y generación de archivos para cada región. · En este proceso se están ejecutando 1 servicio web desarrollado en Java para recepción de XML, BD MySQL, 4 más desarrollados en C# que incluyen descarga de documentos, generación de PDF, georreferenciación y reportes. Historia de Usuario/Requerimiento (1): Desarrollo de controles de cambios para el servicio WS_GestorIdentidades donde se tuvo que modificar un XSLT para Activar y Desactivar Usuarios. Historia de Usuario/Requerimiento (2): Desarrollo de control de cambios para el servicio de Noticias en el que se tuvo que ajustar la obligatoriedad de algunos campos que formaban parte del mismo en el XSD o esquema tanto en el componente FRONT como Back. Historia de Usuario/Requerimiento (3): Desarrollo de control de cambio para el servicio de Aprobaciones donde se debían validar las condiciones para realizar las aprobaciones correspondientes a Herederos donde ya sea el ingreso al flujo o la validación que no tomaba en cuenta la aprobación hecho. El proceso consistió en la homologación teniendo en cuenta que si se trataba de Homologación de Heredero también se debía tener en cuenta el campo de presentación, el cual debía terminar en _13, de no cumplirse con este no se debía realizar la inscripción. aprobación respectiva. Historia de Usuario/Requerimiento (4): Desarrollo de los servicios REST y SOAP de un servicio llamado ServicioDigitals_ActividadEconomica, donde se validaron flujos, mapeos, validaciones de autenticación de usuarios, los cuales resultaron correctos y también las configuraciones de Bindig respecto a los Headers REST y SOAP. Historia de Usuario/Requerimiento (5): Desarrollo de los servicios REST y SOAP de un servicio denominado ServicioDigitales_MaestroParametricas, donde se validaron flujos, mapeos, validaciones de autenticación de usuarios, los cuales resultaron correctos y también las configuraciones de Bindig respecto a los Headers REST y SOAP. Historia de Usuario/Requerimiento (6): Desarrollo desde cero, del FRONT para los servicios REST y SOAP de un servicio denominado ServicioDigitales_Parametricas, donde se creó la respectiva Interfaz, WebService e Implementación del respectivo servicio. Historia de Usuario/Requerimiento (7): Desarrollo desde cero de los componentes FRONT y BACK de un servicio llamado BEPS Electronic Linking. Se ejecutó desde la fase de Análisis, Diseño y Desarrollo. Descripción del servicio: Especificación detallada de interfaces CreateCase (Operación RegistroElectrónicaVincualcion) Descripción: Creación de un caso del proceso BEPS - Vinculación Electrónica Finalidad: Permitir crear un caso con datos mínimos del proceso BEPS - Vinculación Electrónica. Alcance: Se crea un caso en bizagi con la información requerida y se devuelve un número de presentación al consumidor. Plataformas: Interoperable Clase de interfaz: Orientada a servicios Funcionalidad: El bus de servicio enviará una solicitud de creación de caso a la capa SOA de bizagi. Bizagi creará el caso y enviará el número de expediente correspondiente. Poscondiciones: Se crea un caso en Bizagi y el bus obtiene el número de expediente correspondiente. Evento anticipado Esperando información Vinculante Descripción: Una vez que el bus de servicio tenga lista la información, deberá enviar esta información a Bizagi a través de los métodos disponibles en la capa SOA. Propósito: Permitir que la información del bus de servicio sea enviada a Bizagi Alcance: La información requerida para el proceso debe almacenarse en Bizagi Clase de Interfaz: Orientada a Servicios Funcionalidad: El bus de servicio crea un caso en Bizagi con los datos detallados correspondientes y necesarios. TIBCO 5, Oracle Service Manager, MobaxTerm, SOAP UI, Mantis Historia de usuario/Requerimiento (8): control de cambios 0065353_metodo crear cita -ETAPA1-Error": "id_device longitud no válida" ampliar la longitud del campo. Historia de Usuario/Requerimiento (9): Realización del componente FRONTAL para la operación de Listado de Medicamentos del servicio de Resultados Médicos, tanto la Interfaz, como la Implementación y el Esquema. <a</p>
+    </div>
+  </div>
+</body>
+</html>
