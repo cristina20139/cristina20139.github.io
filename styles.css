@@ -29,6 +29,20 @@ code { font-family: Consolas, 'Courier New', monospace; }
 .experience-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
 .experience-table th, .experience-table td { border: 1px solid #dfe3ea; padding: 10px; }
 .experience-table th { background: #f4f6fb; color: #2e7d32; text-align: left; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.08em; }
+.experience-table { border: none; overflow: hidden; }
+.experience-table thead th { border: none; background: #e9f2ff; }
+.experience-table tbody tr { background: #fff; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 0 0 rgba(16, 42, 67, 0.06); }
+.experience-table tbody tr:nth-child(even) { background: #f7f9ff; }
+.experience-table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 12px 24px rgba(15, 23, 42, 0.15); }
+.experience-table td { border: none; }
+.experience-table td:first-child { font-weight: 600; color: #0b3d91; }
+.experience-table td span.experience-row-meta { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9em; opacity: 0.85; }
+.experience-table td span.experience-row-meta::before { content: "🔹"; }
+.experience-link { display: inline-flex; align-items: center; gap: 6px; background: linear-gradient(135deg, #1572ff, #0050d4); color: #fff; padding: 6px 12px; border-radius: 999px; text-decoration: none; font-weight: 600; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.experience-link:hover { transform: translateY(-1px); box-shadow: 0 10px 20px rgba(14, 56, 189, 0.35); }
+.experience-link::after { content: "➡️"; font-size: 0.9em; }
+.experience-table td:last-child { width: 140px; text-align: right; }
+.experience-duration { color: #0b3d91; font-weight: 600; }
 .experience-table td button, .experience-table td a { text-decoration: none; color: #1565c0; font-weight: 600; }
 .experience-detail-table { width: 100%; border-collapse: collapse; margin-top: 16px; }
 .experience-detail-table th, .experience-detail-table td { border: 1px solid #d1d5db; padding: 8px 10px; vertical-align: top; }
