@@ -1,0 +1,58 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background: linear-gradient(180deg, #f3f5fb 0%, #ffffff 100%); color: #131b25; margin: 0; padding: 0; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; color: #0b498a; text-decoration: none; font-weight: 600; margin-bottom: 16px; }
+.back-link:hover { color: #142a5b; }
+.container { max-width: 960px; margin: 40px auto; background: #ffffff; border: 1px solid #dfe3ea; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12); border-radius: 16px; padding: 32px 40px; }
+h1 { color: #1565c0; margin-top: 0; }
+h2 { color: #2e7d32; margin-top: 32px; }
+h3 { color: #7b1fa2; margin-top: 24px; }
+.note { background: #e3f2fd; border-left: 4px solid #1976d2; padding: 16px 20px; margin: 18px 0; border-radius: 7px; }
+.note ul { list-style: disc inside; margin: 0; padding-left: 1.2em; }
+.note li { margin-bottom: 3px; line-height: 1.35; }
+.note p { margin: 0 0 6px 0; line-height: 1.5; }
+.footer { text-align: right; color: #888; font-size: 1em; margin-top: 40px; }
+.tag { background: #e3f2fd; color: #1565c0; border-radius: 4px; padding: 3px 8px; margin-left: 6px; font-size: 0.95em; }
+dt { color: #2e7d32; font-weight: bold; margin-top: 10px; }
+dd { margin-bottom: 10px; }
+.params table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+.params th, .params td { border: 1px solid #ccc; padding: 6px; }
+.important { background: #fffde7; border-left: 4px solid #fbc02d; padding: 12px 18px; margin: 18px 0; border-radius: 5px; }
+.sideEffects ul, .solid ul { margin: 0; padding-left: 20px; }
+@media (max-width: 600px) { .container { padding: 16px 8px; } .experience-flair-row { flex-direction: column; align-items: flex-start; } .experience-chip { width: 100%; text-align: center; } .service-item { flex-direction: column; } .tech-table th { width: auto; } }
+pre { background: #f6f8fa; padding: 14px; border-radius: 8px; overflow: auto; font-size: 0.92em; }
+code { font-family: Consolas, 'Courier New', monospace; }
+.row { display:flex; gap:20px; flex-wrap:wrap; }
+.col { flex:1 1 420px; }
+.endpoint { border: 1px solid #e0e0e0; padding: 12px 14px; border-radius: 8px; background: #fff; box-shadow: 0 3px 8px rgba(0,0,0,0.04); }
+.json { white-space: pre; font-family: Consolas, 'Courier New', monospace; font-size: 0.95em; }
+.success { color: #2e7d32; font-weight: 600; }
+.error { color: #c62828; font-weight: 600; }
+.experience-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.experience-table th, .experience-table td { border: 1px solid #dfe3ea; padding: 10px; }
+.experience-table th { background: #f4f6fb; color: #2e7d32; text-align: left; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.08em; }
+.experience-table td button, .experience-table td a { text-decoration: none; color: #1565c0; font-weight: 600; }
+.experience-detail-table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+.experience-detail-table th, .experience-detail-table td { border: 1px solid #d1d5db; padding: 8px 10px; vertical-align: top; }
+.experience-detail-table th { background: #f2f5f9; color: #2e7d32; width: 160px; }
+.experience-detail-content { margin-top: 16px; line-height: 1.7; background: linear-gradient(135deg, #f9fbff 0%, #edf4ff 100%); border-left: 5px solid #4b6fd9; padding: 22px; border-radius: 14px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08); }
+.experience-detail-content p { margin: 0; color: #102a43; }
+.experience-flair-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; align-items: center; }
+.experience-chip { background: #e3f2fd; color: #0b4c91; border-radius: 999px; padding: 6px 14px; font-size: 0.95em; border: 1px solid rgba(11, 76, 145, 0.2); box-shadow: 0 6px 18px rgba(11, 76, 145, 0.1); }
+.experience-highlight-card { margin-top: 26px; padding: 16px 20px; border-radius: 14px; background: linear-gradient(145deg, #ffffff, #eef2ff); border: 1px solid #d5def8; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8), 0 20px 40px rgba(11, 41, 99, 0.08); }
+.experience-highlight-card h2 { margin-top: 0; color: #102a43; font-size: 1.18em; letter-spacing: 0.01em; }
+.emoji-bullets { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 10px; }
+.emoji-bullets li { background: #ffffff; border-radius: 10px; padding: 10px 14px; border-left: 5px solid #4b6fd9; color: #1c2541; font-weight: 500; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); line-height: 1.5; }
+.experience-section { margin-top: 24px; background: #ffffff; border-radius: 14px; padding: 20px 24px; box-shadow: 0 12px 28px rgba(15, 23, 42, 0.07); border: 1px solid #e1e6f0; }
+.experience-section h3 { margin: 0 0 14px; font-size: 1.1rem; color: #0d1f44; display: flex; align-items: center; gap: 10px; }
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.service-item { display: flex; gap: 12px; background: #f6f8ff; padding: 12px 14px; border-radius: 12px; border: 1px solid transparent; transition: border-color 0.2s ease, transform 0.2s ease; }
+.service-item:hover { border-color: #c6d4ff; transform: translateY(-2px); }
+.service-icon { font-size: 1.35em; line-height: 1; }
+.service-item strong { font-size: 0.98em; color: #0b2b66; display: block; margin-bottom: 4px; }
+.service-item p { margin: 0; color: #1f2f5a; font-size: 0.92em; }
+.tech-table { width: 100%; border-collapse: collapse; font-size: 0.92em; }
+.tech-table th, .tech-table td { padding: 8px 10px; border-bottom: 1px solid #dfe3ea; text-align: left; }
+.tech-table tr:last-child td { border-bottom: none; }
+.tech-table th { width: 220px; color: #2b4363; font-weight: 600; }
+.achievement-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.achievement-list li { background: #eef4ff; padding: 12px 14px; border-radius: 10px; border-left: 4px solid #4b6fd9; color: #11213f; line-height: 1.4; }
+.experience-summary-note { margin: 12px 0; }
